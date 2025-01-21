@@ -1,0 +1,10 @@
+{
+  "name": "hack-stalker-demo",
+  "version": "1.0.0",
+  "author": "Anansi Solutions SA <info@anansi-solutions.net> (https://anansi-solutions.net)",
+  "type": "module",
+  "main": "index.mjs",
+  "dependencies": {
+    "broken-left-pad": "github:Anansi-Solutions/left-pad"
+  }
+}
