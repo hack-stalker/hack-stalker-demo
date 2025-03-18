@@ -168,3 +168,6 @@ console.log(
 console.log(
   `| ${file.name.padEnd(firstColumnLength, " ")} | ${formattedString} |`
 );
+
+// demonstration that hack-stalker analysis survives inexistent issues
+// see https://github.com/Anansi-Solutions/left-pad/issues/1359
