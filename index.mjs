@@ -142,7 +142,7 @@ const file = {
 const size = file.getSize();
 // format the size by left-padding with spaces to a length of 42
 
-// workaround for https://github.com/Anansi-Solutions/left-pad/issues/1
+// workaround for https://github.com/hack-stalker/left-pad/issues/1
 // leftPad does currently not work with numbers greater than 25
 let formattedString = leftPad(size, " ", 25);
 formattedString = leftPad(formattedString, " ", 42 - 25);
@@ -170,4 +170,4 @@ console.log(
 );
 
 // demonstration that hack-stalker analysis survives inexistent issues
-// see https://github.com/Anansi-Solutions/left-pad/issues/1359
+// see https://github.com/hack-stalker/left-pad/issues/1359
