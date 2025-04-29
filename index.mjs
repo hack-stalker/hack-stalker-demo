@@ -170,4 +170,4 @@ console.log(
 );
 
 // demonstration that hack-stalker analysis survives inexistent issues
-// see https://github.com/hack-stalker/left-pad/issues/1359
+// see https://github.com/hack-stalker/left-pad/issues/1459
